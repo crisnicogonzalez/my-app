@@ -13,8 +13,7 @@ import AppBar from "./AppBar"
 
 const styles = theme => ({
   root: {
-    textAlign: 'center',
-    paddingTop: theme.spacing.unit * 20,
+    textAlign: 'center'
   },
 });
 
@@ -41,6 +40,7 @@ class Index extends Component {
 
     return (
       <div className={classes.root}>
+        <AppBar />
         <Dialog open={open} onClose={this.handleClose}>
           <DialogTitle>Super Secret Password</DialogTitle>
           <DialogContent>
