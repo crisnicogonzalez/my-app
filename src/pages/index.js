@@ -9,6 +9,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import withRoot from '../withRoot';
+import AppBar from "./AppBar"
 
 const styles = theme => ({
   root: {
