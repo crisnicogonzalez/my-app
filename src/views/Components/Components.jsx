@@ -47,23 +47,8 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg41.jpg")}>
-          <div className="Components-container-1">
-            <GridContainer>
-              <GridItem>
-                <div className={classes.brand}>
-                  <h1 className={classes.title}>Perfect Knowledge</h1>
-                  <h3 className={classes.subtitle}>
-                    Prediciendo el futuro y conociendo el mundo
-                  </h3>
-                </div>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
-
+        <SectionCarousel />
         <div className={classNames("Components-main-5")}>
-          <SectionCarousel />
           <CustomSection />
           <SectionTabs />
           <CustomSection />
