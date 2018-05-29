@@ -4,7 +4,6 @@ import Carousel from "react-slick";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
 // @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -29,7 +28,7 @@ class SectionCarousel extends React.Component {
       <div className={classes.section}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
+            <GridItem xs={12} sm={12} md={12} className={classes.marginAuto}>
               <Card carousel>
                 <Carousel {...settings}>
                   <div>
@@ -40,8 +39,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h4>
-                        <LocationOn className="slick-icons" />Yellowstone
-                        National Park, United States
+                        Potenciá tu negocio
                       </h4>
                     </div>
                   </div>
@@ -53,8 +51,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h4>
-                        <LocationOn className="slick-icons" />Somewhere Beyond,
-                        United States
+                        Conocé tu negocio
                       </h4>
                     </div>
                   </div>
@@ -66,8 +63,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h4>
-                        <LocationOn className="slick-icons" />Yellowstone
-                        National Park, United States
+                        Mejorá tu negocio
                       </h4>
                     </div>
                   </div>
