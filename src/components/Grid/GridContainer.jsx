@@ -8,8 +8,8 @@ import Grid from "material-ui/Grid";
 
 const style = {
   grid: {
-    marginRight: "-15px",
-    marginLeft: "-15px",
+    marginRight: "-5px",
+    marginLeft: "-5px",
     width: "auto"
   }
 };

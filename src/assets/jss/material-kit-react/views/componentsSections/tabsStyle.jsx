@@ -1,6 +1,6 @@
 import { container } from "assets/jss/material-kit-react.jsx";
 
-const tabsStyle = {
+export const tabsStyle = {
   section: {
     background: "#EEEEEE",
     padding: "70px 0"
@@ -11,4 +11,14 @@ const tabsStyle = {
   }
 };
 
-export default tabsStyle;
+
+export const customTabStyle = {
+  section: {
+    background: "#FFFFFF",
+    padding: "70px 0"
+  },
+  container,
+  textCenter: {
+    textAlign: "center"
+  }
+};

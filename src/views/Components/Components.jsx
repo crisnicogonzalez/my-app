@@ -27,7 +27,7 @@ import SectionCompletedExamples from "./Sections/SectionCompletedExamples.jsx";
 import SectionLogin from "./Sections/SectionLogin.jsx";
 import SectionExamples from "./Sections/SectionExamples.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
-
+import CustomSection from "./Sections/CustomSection.jsx"
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
@@ -63,11 +63,11 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames("Components-main-5")}>
-          <SectionTabs className="section-background-white" />
+          <CustomSection />
           <SectionTabs />
+          <CustomSection />
           <SectionTabs />
-          <SectionTabs />
-          <SectionTabs />
+          <CustomSection />
           <SectionTabs />
 
           {/* <SectionCarousel />
