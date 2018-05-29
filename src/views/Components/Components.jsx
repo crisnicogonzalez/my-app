@@ -53,7 +53,7 @@ class Components extends React.Component {
                 <div className={classes.brand}>
                   <h1 className={classes.title}>Perfect Knowledge</h1>
                   <h3 className={classes.subtitle}>
-                    Predicing the furure and discovering the your word
+                    Prediciendo el futuro y conociendo el mundo
                   </h3>
                 </div>
               </GridItem>
