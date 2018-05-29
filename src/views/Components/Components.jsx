@@ -42,7 +42,7 @@ class Components extends React.Component {
           fixed
           color="dark"
           changeColorOnScroll={{
-            height: 415,
+            height: 400,
             color: "white"
           }}
           {...rest}
@@ -63,6 +63,7 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames("Components-main-5")}>
+          <SectionCarousel />
           <CustomSection />
           <SectionTabs />
           <CustomSection />
