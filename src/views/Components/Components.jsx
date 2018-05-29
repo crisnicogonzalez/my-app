@@ -33,21 +33,22 @@ import componentsStyle from "assets/jss/material-kit-react/views/components.jsx"
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
+    console.log('classes', classes);
     return (
       <div>
         <Header
           brand="Perfect Knowledge"
           rightLinks={<HeaderLinks />}
           fixed
-          color="transparent"
+          color="dark"
           changeColorOnScroll={{
-            height: 400,
+            height: 415,
             color: "white"
           }}
           {...rest}
         />
         <Parallax image={require("assets/img/bg41.jpg")}>
-          <div className={classes.container}>
+          <div className="Components-container-1">
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
@@ -60,15 +61,26 @@ class Components extends React.Component {
             </GridContainer>
           </div>
         </Parallax>
-        <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionBasics />
+
+        <div className={classNames("Components-main-5")}>
+          <SectionTabs className="section-background-white" />
+          <SectionTabs />
+          <SectionTabs />
+          <SectionTabs />
+          <SectionTabs />
+          <SectionTabs />
+
+          {/* <SectionCarousel />
           <SectionNavbars />
           <SectionTabs />
+
+          <SectionBasics />
+
           <SectionPills />
           <SectionNotifications />
           <SectionTypography />
           <SectionJavascript />
-          <SectionCarousel />
+
           <SectionCompletedExamples />
           <SectionLogin />
           <GridItem md={12} className={classes.textCenter}>
@@ -79,7 +91,7 @@ class Components extends React.Component {
             </Link>
           </GridItem>
           <SectionExamples />
-          <SectionDownload />
+          <SectionDownload /> */}
         </div>
         <Footer />
       </div>
