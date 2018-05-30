@@ -25,48 +25,44 @@ class SectionCarousel extends React.Component {
       autoplay: true
     };
     return (
-      <div className={classes.section}>
-        <div className={classes.container}>
-          <Carousel {...settings}>
-            <div>
-              <img
-                src={image1}
-                alt="First slide"
-                className="slick-image"
-              />
-              <div className="slick-caption">
-                <h4>
-                  Potenciá tu negocio
+      <Carousel {...settings}>
+        <div>
+          <img
+            src={image1}
+            alt="First slide"
+            className="slick-image"
+          />
+          <div className="slick-caption">
+            <h4>
+              Potenciá tu negocio
                       </h4>
-              </div>
-            </div>
-            <div>
-              <img
-                src={image2}
-                alt="Second slide"
-                className="slick-image"
-              />
-              <div className="slick-caption">
-                <h4>
-                  Conocé tu negocio
-                      </h4>
-              </div>
-            </div>
-            <div>
-              <img
-                src={image3}
-                alt="Third slide"
-                className="slick-image"
-              />
-              <div className="slick-caption">
-                <h4>
-                  Mejorá tu negocio
-                      </h4>
-              </div>
-            </div>
-          </Carousel>
+          </div>
         </div>
-      </div>
+        <div>
+          <img
+            src={image2}
+            alt="Second slide"
+            className="slick-image"
+          />
+          <div className="slick-caption">
+            <h4>
+              Conocé tu negocio
+                      </h4>
+          </div>
+        </div>
+        <div>
+          <img
+            src={image3}
+            alt="Third slide"
+            className="slick-image"
+          />
+          <div className="slick-caption">
+            <h4>
+              Mejorá tu negocio
+                      </h4>
+          </div>
+        </div>
+      </Carousel>
     );
   }
 }
